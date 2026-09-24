@@ -33,7 +33,7 @@ The model is served on port 11434 with OpenAI-compatible endpoints:
 ### Example Request
 
 ```bash
-curl http://<your-deployment-url>:11434/api/chat \
+curl https://<your-deployment-url>/api/chat \
   -d '{
     "model": "qwen3-coder:30b",
     "messages": [{"role": "user", "content": "Write a Python function that checks if a string is a palindrome."}]
