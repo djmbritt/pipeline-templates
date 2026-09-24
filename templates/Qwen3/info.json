@@ -6,9 +6,9 @@
   "variants": [
     {
       "id": "30b-coder",
-      "name": "30b Coder Model",
+      "name": "30B Coder Model",
       "description": "Qwen 3 30B coder model (19GB, 256K context, Text)",
-      "job_definition": "job-definition-9b.json"
+      "job_definition": "job-definition-30b-coder.json"
     }
   ]
 }
